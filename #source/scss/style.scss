@@ -1,0 +1,111 @@
+// Файл обнуляющих стилей
+@import "_nullstyle";
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  padding: 12px 48px;
+  background-color: #db2512;
+  display: inline-flex;
+}
+//*header start-------------------------
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header__wrapper {
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__block {
+  width: 6%;
+  &:last-child {
+    text-align: right;
+  }
+}
+
+.header__nav {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.nav__link {
+  display: block;
+  color: #ffffff;
+  margin-right: 35px;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover,
+  &:active,
+  &:focus {
+    border-bottom: 2px solid #ffffff;
+  }
+}
+
+.header__language {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__lng-link {
+  margin-right: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #b7b7b7;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover,
+  &:active,
+  &:focus {
+    color: #ffffff;
+  }
+}
+//*header end-------------------------
+//*intro start------------------------
+.intro {
+  background: url(../../img/intro_bg.jpg) no-repeat top center;
+}
+.intro__content {
+  height: 750px;
+  display: flex;
+  align-items: center;
+}
+.intro__block {
+  max-width: 791px;
+}
+
+.intro__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 53px;
+}
+//*intro end--------------------------

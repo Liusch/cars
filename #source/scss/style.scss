@@ -117,10 +117,11 @@ body {
   }
 }
 .intro__content {
+  padding-top: 217px;
   position: relative;
   height: 750px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   z-index: 2;
 }
 .intro__block {
@@ -281,3 +282,222 @@ body {
   color: #000000;
 }
 //*service end------------------------
+//*about start------------------------
+.about {
+  margin-bottom: 99px;
+  padding: 115px 0;
+  background-color: #171616;
+}
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__block {
+  max-width: 505px;
+}
+.about__block-title {
+  margin-bottom: 42px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.about__block-text {
+  margin-bottom: 48px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 0.23em;
+  color: #b7b7b7;
+}
+.about__more {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  color: #ffffff;
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
+}
+.about__image-pic {
+  height: 340px;
+}
+//*about end--------------------------
+//*work start-------------------------
+.work {
+  margin-bottom: 99px;
+}
+.work__content {
+  text-align: center;
+}
+.work__title {
+  margin-bottom: 5px;
+  font-weight: 900;
+  font-size: 148px;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.work__title-small {
+  margin-bottom: 92px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.work__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+.work__block {
+  text-align: left;
+  width: 33.333%;
+  padding: 0 10px;
+}
+.work__item {
+  height: 100%;
+  padding: 31px 31px 23px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+.work__item-title {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.work__item-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #b7b7b7;
+}
+//*work end---------------------------
+//*contacts start---------------------
+.contacts {
+  padding: 98px 0;
+  background-color: #171616;
+}
+.contacts__title {
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.contacts__form {
+  max-width: 440px;
+}
+.form__row {
+  display: flex;
+  margin: 0 -20px;
+}
+.form__groop {
+  margin-bottom: 35px;
+  padding: 0 20px;
+  flex: 1;
+  position: relative;
+}
+.input {
+  width: 100%;
+  padding: 9px 0;
+  color: #ffffff;
+  font-size: 15px;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  &:focus + .label {
+    transform: translateY(-18px);
+    font-size: 12px;
+  }
+  &:not(:placeholder-shown) + .label {
+    transform: translateY(-18px);
+    font-size: 12px;
+  }
+}
+.label {
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+.textarea {
+  min-height: 130px;
+  width: 100%;
+  resize: vertical;
+  padding: 9px 0;
+  color: #ffffff;
+  font-size: 15px;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  &:focus + .label {
+    transform: translateY(-18px);
+    font-size: 12px;
+  }
+  &:not(:placeholder-shown) + .label {
+    transform: translateY(-18px);
+    font-size: 12px;
+  }
+}
+.btn__form {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 12px 76px;
+  background-color: #db2512;
+  display: inline-flex;
+  transition: all 0.2s ease;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #7e1206;
+  }
+}
+//*contacts end-----------------------
+//*footer start-----------------------
+
+.footer__wrapper {
+  min-height: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright {
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 0.15em;
+}
+.footer__soc {
+  display: flex;
+}
+.footer__soc-link {
+  margin-right: 22px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.footer__img {
+  height: 25px;
+  width: 25px;
+}
+//*footer end-------------------------

@@ -25,11 +25,20 @@
             </a>
           </div>
           <nav class="header__nav">
-            <a href="#!" class="nav__link">Main</a>
-            <a href="#!" class="nav__link">Our services</a>
-            <a href="#!" class="nav__link">About</a>
-            <a href="#!" class="nav__link">Contacts</a>
+            <a href="#main" class="nav__link js-scroll">Main</a>
+            <a href="#service" class="nav__link js-scroll">Our services</a>
+            <a href="#about" class="nav__link js-scroll">About</a>
+            <a href="#contacts" class="nav__link js-scroll">Contacts</a>
+            <div class="header__nav-close">
+              <span class="header__nav-close-line"></span>
+              <span class="header__nav-close-line"></span>
+            </div>
           </nav>
+          <div class="header__burger burger">
+            <span class="burger__line burger__line-first"></span>
+            <span class="burger__line burger__line-second"></span>
+            <span class="burger__line burger__line-third"></span>
+          </div>
           <div class="header__language">
             <a href="#!" class="header__lng-link">RU</a>
             <a href="#!" class="header__lng-link">EN</a>
@@ -39,7 +48,7 @@
     </div>
     <!-- header end -->
     <!-- intro start -->
-    <section class="intro">
+    <section class="intro" id="main">
       <div class="container">
         <div class="intro__content">
           <div class="intro__block">
@@ -100,7 +109,7 @@
     </section>
     <!-- info end -->
     <!-- service start-->
-    <section class="service">
+    <section class="service" id="service">
       <div class="container">
         <div class="service__block">
           <h2 class="service__title">OUR SERVICES</h2>
@@ -169,7 +178,7 @@
     </section>
     <!-- service end-->
     <!-- about start -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <div class="about__wrapper">
           <div class="about__block">
@@ -227,7 +236,7 @@
     </section>
     <!-- work end -->
     <!-- contacts start -->
-    <section class="contacts">
+    <section class="contacts" id="contacts">
       <div class="container">
         <h2 class="contacts__title">Contact us</h2>
         <form action="#!" class="contacts__form">
@@ -303,5 +312,6 @@
       </div>
     </footer>
     <!-- footer end -->
+    <script src="js/main.js"></script>
   </body>
 </html>
